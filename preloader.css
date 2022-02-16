@@ -4,12 +4,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  height: 100%;
-  text-align: center;
-  line-height: 100vh;
-  background-color: black;
-}
 
 b {
   position: relative;
