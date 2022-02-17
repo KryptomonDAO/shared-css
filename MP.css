@@ -494,7 +494,29 @@ a.ui.card.link:hover .meta {
   text-transform: lowercase;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
+
+    .NFTImage .image-wrapper {
+        position: absolute;
+        display: flex;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-content: center;
+        /* width: 264px; */
+    }
+
+    .NFTImage .image {
+        margin: auto;
+        /* max-height: 100%; */
+        width: 93% !important;
+        top: 6%;
+    }
+}
+
+
+@media only screen and (max-width: 770px) {
 .nfts {
     display: grid;
     grid-template-columns: auto auto;
@@ -511,11 +533,7 @@ a.ui.card.link:hover .meta {
     display: flex;
     place-content: center;
 }
-    
-    .NFTImage .image {
-    margin: auto;
-    top: 25px;
-}
+
     
 }
 
@@ -524,18 +542,6 @@ a.ui.card.link:hover .meta {
     a.ui.link.card.NFTCard {
     max-width: 166px;
     display: flex;
-}
-    
-    .NFTImage .image-wrapper {
-    position: absolute;
-    top: -29px;
-    bottom: -46px;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    place-content: center;
 }
 
 }
