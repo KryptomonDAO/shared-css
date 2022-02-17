@@ -512,6 +512,7 @@ a.ui.card.link:hover .meta {
         /* max-height: 100%; */
         width: 93% !important;
         top: 6%;
+        max-width:100%;
     }
 }
 
