@@ -493,3 +493,53 @@ a.ui.card.link:hover .meta {
   white-space: nowrap;
   text-transform: lowercase;
 }
+
+@media only screen and (max-width: 600px) {
+.nfts {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-content: center;
+}
+    
+    a.ui.link.card.NFTCard {
+    margin: 10px;
+}
+    
+    .NFTImage .image-wrapper {
+    text-align: center;
+    display: flex;
+    place-content: center;
+}
+    
+    .NFTImage .image {
+    margin: auto;
+    top: 25px;
+}
+    
+}
+
+@media only screen and (max-width: 480px) {
+    
+    a.ui.link.card.NFTCard {
+    max-width: 166px;
+    display: flex;
+}
+    
+    .NFTImage .image-wrapper {
+    position: absolute;
+    top: -29px;
+    bottom: -46px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    place-content: center;
+}
+
+}
+
+
+
+
