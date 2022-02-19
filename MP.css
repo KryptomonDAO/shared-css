@@ -6,6 +6,11 @@
 .nfts {
     display: flex;
 }
+
+.nfts2 {
+    display: flex;
+}
+
 .NFTCard {
   overflow: hidden;
 }
